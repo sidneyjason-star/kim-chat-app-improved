@@ -1,0 +1,61 @@
+{
+  "name": "Chat com Agente n8n",
+  "short_name": "Chat n8n",
+  "description": "Aplicativo de chat para interagir com seu agente de conversação hospedado no n8n",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#1a1a1a",
+  "theme_color": "#1a1a1a",
+  "icons": [
+    {
+      "src": "%VITE_APP_LOGO%",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "%VITE_APP_LOGO%",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "%VITE_APP_LOGO%",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "%VITE_APP_LOGO%",
+      "sizes": "540x720",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "%VITE_APP_LOGO%",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide"
+    }
+  ],
+  "categories": ["productivity", "utilities"],
+  "shortcuts": [
+    {
+      "name": "Novo Chat",
+      "short_name": "Chat",
+      "description": "Iniciar um novo chat com o agente",
+      "url": "/",
+      "icons": [
+        {
+          "src": "%VITE_APP_LOGO%",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
+
